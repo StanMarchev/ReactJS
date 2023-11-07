@@ -1,10 +1,21 @@
-import './styles.css'
+import './styles.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import UserList from './components/UserList';
 
 function App() {
 
 
   return (
-    <h1>Hello</h1>
+    <div>
+      <Header />
+      
+       <main className="main">
+          <UserList />
+       </main>
+
+      <Footer />
+    </div>
   )
 }
 
