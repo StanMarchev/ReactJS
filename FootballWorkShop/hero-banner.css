@@ -1,0 +1,33 @@
+.section-hero-baner {
+    color: #FCBB79;
+    font-size: 1.2em;
+ 
+}
+
+.section-hero-baner a {
+    color: #FCBB79;
+}
+
+.section-hero-baner .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4em 2em;
+    height: 15em;
+}
+
+.section-hero-baner .container p {
+    max-width: 55ch;
+    text-align: left;
+}
+
+.section-hero-baner h2 {
+    margin-bottom: 1em;
+}
+
+.header-p {
+    font-size: 0.7em;
+}
+
+

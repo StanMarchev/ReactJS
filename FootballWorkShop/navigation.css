@@ -1,0 +1,32 @@
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav a,
+.main-nav li {
+    display: block;
+}
+
+.main-nav a {
+    padding: 0.5em 1em;
+}
+
+.main-nav a {
+    text-decoration: none;
+}
+
+.logo-container {
+    
+    display: flex;
+    top: 20px;
+    left: 20px;
+}
+
+.logo-container img {
+    width: 50px; 
+}
+
+.section-site-header .container {
+    display: flex;
+    justify-content: space-between;
+}

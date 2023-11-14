@@ -1,0 +1,98 @@
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+body {
+    background: url(..//Football/img/football-backround-2.avif);
+    background-size: contain;
+    background-position: center -500px;
+    background-repeat: no-repeat;
+    background-color: #0A0A0A;
+    ;
+}
+
+main {
+    background-color: #171720;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-site-header {
+    color: #FCBB79;
+}
+
+.section-site-header .container{
+  display: flex; 
+  justify-content: flex-end; 
+  padding: 1em;
+}
+
+.section-site-header .site-title{
+    display: none;
+}
+
+.section-site-header a {
+color: #FCBB79;
+
+}
+
+.section-site-header .container {
+    display: flex; 
+    justify-content: flex-end; 
+    padding: 1em;
+  }
+  
+.section-site-footer {
+    background: #171720;
+    
+    color: #fff;
+}
+
+.section-site-footer .container p {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.section-targets {
+    border-bottom: solid 0.2em #CCCCCC;
+    background: #fff;
+}
+
+
+.big-footer .container{
+    background: #171720;
+    color: #B3A6A8;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.5;
+    margin-bottom: 4em;
+    
+}
+
+.main-head-footer {
+    font-size: large;
+    color: #fff;
+}
+
+span {
+    font-size: 12px;
+}
+
+.big-footer {
+    background:#171720;
+    border-bottom: solid 0.2em #3A3A41;
+}
+
+.section-sponsors {
+    background: #171720;
+}
+
+.big-footer span {
+    text-transform: uppercase;
+}
