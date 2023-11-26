@@ -9,14 +9,6 @@ export const getAll = async () => {
 };
 
 export const create = async (gameData) => {
-   const response = await fetch(baseUrl, {
-        method: 'POST',
-        headers: {
-            'content-type': 'application/json'
-        },
-        body: JSON.stringify(gameData)
-    });
-
-    const result = await response.json();
+   const response = await request ('POST', baseUrl, gameData);
     return result;
 }
