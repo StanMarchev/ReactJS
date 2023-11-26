@@ -1,4 +1,10 @@
 export default function GameCreate () {
+    const createGameSumbitHandler = (e) => {
+        e.preventDefault();
+
+        const gameData = Object.fromEntries(new FormData(e.currentTarget));
+    }
+    
     return (
         <section id="create-page" className="auth">
             <form id="create">
