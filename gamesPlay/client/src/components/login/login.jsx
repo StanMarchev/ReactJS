@@ -3,7 +3,7 @@ import useForm from "../../hooks/useForm";
 export default function Login ({
     loginSumbitHandler,
 }) {
-    const {values, onChange, onSumbit} = useForm(loginSumbitHandler, {
+    const {values, onChange, onSumbit} = useForm(loginSumbitHandler,{
         email: '',
         password: '',
     });
