@@ -1,10 +1,9 @@
-import React from 'react';
 
 
-export default function Header() {
+export default function Header()  {
     return (
     <div className="section-site-header">
-        <div class="container">
+        <div className="container">
             <div className="logo-container">
             <img src={require("../Football/img/PL-ball-1.png").default} alt="Logo" />
             </div>
